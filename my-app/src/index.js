@@ -1,27 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
+import '../node_modules/font-awesome/css/font-awesome.min.css'
+import './index.css';
+import Home from './pages/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-4">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae itaque autem, perspiciatis ipsam, beatae aspernatur fugit fuga velit magnam enim repudiandae perferendis corporis. Accusantium voluptates eligendi adipisci nulla dolor.</p>
-        </div>
-        <div className="col-lg-4">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae itaque autem, perspiciatis ipsam, beatae aspernatur fugit fuga velit magnam enim repudiandae perferendis corporis. Accusantium voluptates eligendi adipisci nulla dolor.</p>
-        </div>
-        <div className="col-lg-4">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae itaque autem, perspiciatis ipsam, beatae aspernatur fugit fuga velit magnam enim repudiandae perferendis corporis. Accusantium voluptates eligendi adipisci nulla dolor.</p>
-        </div>
-      </div>
-    </div>
+    <Home />
     {/* <App /> */}
   </React.StrictMode>
 );
